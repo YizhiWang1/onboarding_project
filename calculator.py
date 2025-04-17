@@ -7,4 +7,5 @@ def divide(a: int, b: int):
         raise ValueError("Cannot divide by zero")
     return a / b
 if __name__ == "__main__":
-    pass
+    print("Multiply 6 * 7 =", multiply(6, 7))      # 42
+    print("Divide 10 / 2 =", divide(10, 2))        # 5.0
