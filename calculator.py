@@ -1,6 +1,8 @@
 # multiplication 
-def multiplication(a: int, b: int):
+def multiply(a: int, b: int):
     return a * b
-
+# division
+def divide(a: int, b: int):
+    return a / b
 if __name__ == "__main__":
     pass
